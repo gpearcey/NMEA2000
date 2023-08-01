@@ -1,5 +1,11 @@
 = NMEA2000 library for C++ =
 
+:1: https://cyberboat.gitbook.io/cyberboat/
+:2: https://github.com/ttlappalainen/NMEA2000
+
+This is a fork of the {2}[NMEA2000 Library]. This fork is formatted as an ESP32 component and does not automatically set the NMEA message source. 
+This fork was developed to support the {1}[CyberBoat Project].
+
 Object oriented NMEA2000 library for Teensy, ESP, Arduino, MBED and Rasberry type Boards.
 These board types has been tested, but library can be used also in other systems by writing
 compatible CAN driver and wrapper for other hw specific functions.
